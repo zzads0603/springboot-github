@@ -16,6 +16,7 @@ public class controller01 {
     @RequestMapping("/")
     public String   test01(){
         System.out.println("版本01");
+        System.out.println("版本02");
         return "123";
     }
 }
