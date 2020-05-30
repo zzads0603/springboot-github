@@ -12,4 +12,10 @@ public class controller01 {
     public String   index(){
         return "123";
     }
+    @ResponseBody
+    @RequestMapping("/")
+    public String   test01(){
+        System.out.println("版本01");
+        return "123";
+    }
 }
